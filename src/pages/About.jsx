@@ -1,13 +1,11 @@
 import { usePageTitleAndMeta } from "../components/PageTitleAndMeta";
-import Navbar from "../components/Navbar";
 export default function About() {
   usePageTitleAndMeta(
-    "Duck Digital: About",
-    "Learn more about our company and mission."
+    "Bear Digital Studios: About",
+    "Learn more about the People who make Bear Digital Studios run."
   );
   return (
     <>
-      <Navbar />
       <div>About</div>
     </>
   );

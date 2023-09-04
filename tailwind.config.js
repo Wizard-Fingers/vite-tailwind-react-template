@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        Orange: "#ED7017",
-        Blue: "#00BFF3",
-        White: "#F4F4F4",
-        Black: "#222222",
+        Black: "#000000",
+        White: "#FFFFFF",
+        Blue: "#378BD0",
+        Orange: "#E74D00",
       },
     },
   },

@@ -1,5 +1,9 @@
 import { usePageTitleAndMeta } from "../components/PageTitleAndMeta";
 export default function NotFound() {
-  usePageTitleAndMeta("Duck Digital: Not Found", "Page not found.");
-  return <div>NotFound</div>;
+  usePageTitleAndMeta("Bear Digital Studios: Not Found", "Page not found.");
+  return (
+    <main>
+      <h1>Not Found</h1>
+    </main>
+  );
 }

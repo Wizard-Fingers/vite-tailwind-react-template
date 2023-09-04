@@ -13,7 +13,7 @@ export function usePageTitleAndMeta(title, description) {
 
     // Clean up the added meta tag and reset the title when the component is unmounted
     return () => {
-      document.title = "Duck Digital"; // Reset the title
+      document.title = "Bear Digital Studios"; // Reset the title
       document.head.removeChild(metaTag);
     };
   }, [title, description]);
