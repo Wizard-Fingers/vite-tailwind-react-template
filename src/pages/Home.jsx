@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import HomeHero from "../components/HomeHero";
 import HomeInfo from "../components/HomeInfo";
-import TeamBtn from "../components/TeamBtn";
 import Reviews from "../components/Reviews";
+import TeamBtn from "../components/TeamBtn";
+
 export default function Home() {
   return (
     <>
@@ -13,12 +14,12 @@ export default function Home() {
         transition={{ duration: 2 }}
         className="bg-Black h-screen "
       >
-        <main>
+        <main className="bg-Black">
           <HomeHero />
+
           <HomeInfo />
-          <div className="p-8 pb-14 bg-Black">
-            <TeamBtn />
-          </div>
+
+          <TeamBtn />
           <Reviews />
         </main>
       </motion.div>
